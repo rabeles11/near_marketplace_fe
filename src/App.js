@@ -7,7 +7,6 @@ import Products from "./components/marketplace/Products";
 import Cover from "./components/utils/Cover";
 import coverImg from "./assets/img/sandwich.jpg";
 import "./App.css";
-import "!style-loader!css-loader!react-toastify/dist/ReactToastify.css"
 
 
 const App = function AppWrapper() {

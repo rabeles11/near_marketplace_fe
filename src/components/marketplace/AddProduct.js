@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Button, Modal, Form, FloatingLabel } from "react-bootstrap";
-import "!style-loader!css-loader!react-toastify/dist/ReactToastify.css"
 
 const AddProduct = ({ save }) => {
   const [name, setName] = useState("");
